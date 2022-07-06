@@ -122,6 +122,6 @@ To recap, compared to suburban and rural communities there is a larger use of Py
 
 
     To Summarize:
-    -Higher PyBer ridesharing services in urban cities compared to suburban and rural cities.
-    -Lower average fares per ride in urban cities caompared to suburban and rural cities.
+        -Higher PyBer ridesharing services in urban cities compared to suburban and rural cities.
+        -Lower average fares per ride in urban cities caompared to suburban and rural cities.
 
