@@ -118,3 +118,8 @@ Creating an analysis of Pyber's data and putting it into a readable, easy to und
 
 ![PyBer_fare_summary](https://user-images.githubusercontent.com/104540261/177510648-ef358b7b-b068-41c5-b9c4-8e8e1cd20f3d.png)
 ## Summary
+To recap, compared to suburban and rural communities there is a larger use of PyBer ridesharing in urban cities. One supporting factor might be that there are more drivers in urban cities than rural cities. Which in turn, results in the majority of PyBer's revenue occurs in urban cities.The data also indicates that a fare for a ride is signifigantly higher in rural areas. Since the costs for using PyBer is greater among riders in rural cities than urban cities. This could discourage potential riders from using PyBer given the high average fare per ride. This being said drivers in urban cities are still earning less than drivers in the rural cities. This fact could act as a disincintive for potential drivers from working with PyBer. The lower average fare in urban cities compared to the average fare in suburban and rural cities might not seem as financially lucrative. Possible alternative analysis into other factors that might influence this data could be warranted. For instance, the distance traveled per ride and the type of driving that is done might provide insight onto why driver fares are lower in urban cities and why ride cost are high in rural cities. 
+To Summarize:
+    -Higher PyBer ridesharing services in urban cities compared to suburban and rural cities.
+    -Lower average fares per ride in urban cities caompared to suburban and rural cities.
+
