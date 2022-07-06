@@ -88,5 +88,29 @@ Creating an analysis of Pyber's data and putting it into a readable, easy to und
 
 ![Fig6](https://user-images.githubusercontent.com/104540261/177507401-b6c185ae-8901-4b14-ba3f-14066af1716d.png)
 
+    import matplotlib.dates as mdates
+
+    # Import the style from Matplotlib.
+    from matplotlib import style
+    # Use the graph style fivethirtyeight.
+    style.use('fivethirtyeight')
+
+    fig, ax = plt.subplots(figsize=(15, 6))
+    ax.plot(jan_apr_fare_per_week)
+    ax.set_ylabel('Fare ($USD)',fontsize=14)
+    ax.set_xticks(pd.date_range(start = "2019-01-01", end = "2019-04-30", freq="MS"))
+    ax.set_title("Total Fare by City Type")
+    # Make ticks on occurrences of each month:
+    ax.xaxis.set_major_locator(mdates.MonthLocator())
+    # Get only the month to show in the x-axis:
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%b'))
+    ax.legend(["Rural","Suburban","Urban"])
+    # Import the style from Matplotlib.
+    from matplotlib import style
+    # Use the graph style fivethirtyeight.
+    style.use('fivethirtyeight')
+    # Save the figure.
+    plt.savefig("PyBer_fare_summary.png")
 
 ![PyBer_fare_summary](https://user-images.githubusercontent.com/104540261/177510648-ef358b7b-b068-41c5-b9c4-8e8e1cd20f3d.png)
+## Summary
