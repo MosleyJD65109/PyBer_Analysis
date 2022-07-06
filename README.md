@@ -88,6 +88,9 @@ Creating an analysis of Pyber's data and putting it into a readable, easy to und
 
 ![Fig6](https://user-images.githubusercontent.com/104540261/177507401-b6c185ae-8901-4b14-ba3f-14066af1716d.png)
 
+
+![Untitled](https://user-images.githubusercontent.com/104540261/177517857-bac1750d-d60a-46b9-b233-01e32849431a.png)
+
     import matplotlib.dates as mdates
 
     # Import the style from Matplotlib.
@@ -111,8 +114,6 @@ Creating an analysis of Pyber's data and putting it into a readable, easy to und
     style.use('fivethirtyeight')
     # Save the figure.
     plt.savefig("PyBer_fare_summary.png")
-    
-![Untitled](https://user-images.githubusercontent.com/104540261/177517857-bac1750d-d60a-46b9-b233-01e32849431a.png)
 
 
 ![PyBer_fare_summary](https://user-images.githubusercontent.com/104540261/177510648-ef358b7b-b068-41c5-b9c4-8e8e1cd20f3d.png)
